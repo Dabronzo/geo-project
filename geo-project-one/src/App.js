@@ -1,11 +1,11 @@
 import logo from './logo.svg';
-import GeoMap from './geomap/geomap';
+import GeoMap from './Geomap/Geomap.tsx';
 import './App.css';
 
 
 function App() {
   return (
-   <div>Here we go</div>
+    <GeoMap />
   );
 }
 
